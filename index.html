@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nithesh G</title>
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <!--
+    - favicon
+  -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/dp.png"
+      type="image/x-icon"
+    />
+    <!-- Fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!--
+    - #MAIN
+  -->
+    <main>
+      <!--
+      - #SIDEBAR
+    -->
+
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img src="assets/images/dp.png" alt="Nithesh G" width="80" />
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="Nithesh G">Nithesh G</h1>
+
+            <p class="title">Software Developer</p>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contents</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+
+                <a href="mailto:hanzalah.w@gmail.com" class="contact-link"
+                  >gnithesh16@gmail.com</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+                <address>Bangalore, India</address>
+              </div>
+            </li>
+          </ul>
+
+          <div class="separator"></div>
+          <ul class="social-list">
+            <li class="social-item">
+              <a
+                href="https://www.linkedin.com/in/nithesh04/"
+                target="_blank"
+                class="social-link"
+              >
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+            
+
+            <li class="social-item">
+              <a
+                href="https://github.com/Nithesh04"
+                target="_blank"
+                class="social-link"
+              >
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+      <!--
+      - #main-content
+    -->
+
+      <div class="main-content">
+        <!--
+        - #NAVBAR
+      -->
+
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>About</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Skills</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Resume</button>
+            </li>
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Experience</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Projects</button>
+            </li>
+          </ul>
+        </nav>
+
+        <!--
+        - #ABOUT
+      -->
+
+        <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
+
+          <section class="about-text">
+            <p>
+              Hello folks, I'm a Full-Stack Developer 🚀 with a strong focus on Data Structures and Algorithms (DSA) and Computer Science
+              student at DSU 📚. I'm on my journey to become a
+              skilled Software Developer ⚙️. I'm passionate about building and contributing to projects.
+            </p>
+            <p>
+              I welcome opportunities to connect and
+              collaboratively delve into the dynamic realm of technology. Let's
+              explore and innovate together!
+            </p>
+          </section>
+
+          <section class="service">
+            <h3 class="h3 service-title">What I'm doing</h3>
+            <ul class="service-list">
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-dev.svg"
+                    alt="Web development icon"
+                    width="40"
+                  />
+                </div>
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Full Stack Development</h4>
+                  <p class="service-item-text">
+                    I am passionate about building seamless and efficient full-stack web applications.
+                  </p>
+                </div>
+              </li>
+
+              
+            </ul>
+          </section>
+
+          <div class="modal-container" data-modal-container>
+            <div class="overlay" data-overlay></div>
+
+            <section class="testimonials-modal">
+              <button class="modal-close-btn" data-modal-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+            </section>
+          </div>
+        </article>
+
+        <!--
+        - #Skills
+      -->
+        <section>
+          <article class="skills" data-page="skills">
+            <header>
+              <h2 class="h2 article-title">Skills</h2>
+            </header>
+            <section class="logos">
+              <img
+                src="https://img.icons8.com/color/96/000000/c-plus-plus-logo.png"
+                alt="C++"
+              />
+              <img
+                src="https://img.icons8.com/?size=100&id=13679&format=png&color=000000"
+                alt="Java"
+                />
+              <img
+                src="https://img.icons8.com/color/96/000000/python.png"
+                alt="Python"
+              />
+              <img
+                src="https://img.icons8.com/color/96/000000/html-5.png"
+                alt="HTML"
+              />
+              <img
+                src="https://img.icons8.com/color/96/000000/css3.png"
+                alt="CSS"
+              />
+              <img
+                src="https://img.icons8.com/color/96/000000/javascript.png"
+                alt="JavaScript (JS)"
+              />
+              <img
+                src="https://img.icons8.com/fluency/96/000000/node-js.png"
+                alt="node-js"
+              />
+              <img
+                src="https://img.icons8.com/officel/96/000000/react.png"
+                alt="react"
+              />
+              <img
+                src="https://img.icons8.com/color/96/000000/my-sql.png"
+                alt="my-sql"
+              />
+              <img
+                src="https://img.icons8.com/color/96/000000/mongodb.png"
+                alt="mongodb"
+              />
+              
+              <img
+                src="https://img.icons8.com/color/96/000000/visual-studio-code-2019.png"
+                alt="VS Code"
+              />
+              <!-- ////////////////////////////////////////////////////////////////////////////////////////////////// -->
+            </section>
+            <section
+              class="about-text"
+              style="margin-top: 10px; margin-bottom: 0"
+            >
+              <p>
+                While I've honed my skills with these technologies, I'm always
+                ready to dive into new tech stacks, tools, and languages
+              </p>
+            </section>
+          </article>
+        </section>
+
+        <!-- Resume -->
+
+        <!--
+        - #RESUME
+      -->
+
+        <article class="resume" data-page="resume">
+          <header>
+            <h2 class="h2 article-title">Resume</h2>
+          </header>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <embed src="assets/resume/Nithesh_G Resume.pdf" />
+            </div>
+          </section>
+        </article>
+
+        <!--
+        - #Experience
+      -->
+      <article class="experience" data-page="Experience">
+        <header>
+          <h2 class="h2 article-title">Experience</h2>
+        </header>
+        <ul class="service-list">
+          <li class="service-item">
+            <div class="service-icon-box">
+              <img
+                src="./assets/images/internship.png"
+                alt="internship icon"
+                width="40"
+              />
+            </div>
+            <div class="service-content-box">
+              <h4 class="h4 service-item-title">WordPress Developer</h4>
+              <p class="service-item-text">
+                Worked on website development to create a creative and user-friendly website based on the client’s requirements..
+              </p>
+            </div>
+          </li>
+
+          
+        </ul>
+      </article>
+
+        <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="projects">
+        <header>
+          <h2 class="h2 article-title">Projects</h2>
+        </header>
+        <section class="projects">
+          <div class="service-container">
+            <ul class="service-list">
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/coding.png"
+                    alt="coding icon"
+                    width="40"
+                  />
+                </div>
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Imagine Text</h4>
+                  <p class="service-item-text">
+                    Introducing Imagine Text 💡. Harness TesseractJS to effortlessly convert image text into editable, copyable text. Unleash the power of visualization! 📷🔍
+                  </p>
+                  <a href="https://github.com/Nithesh04/ImagineText" target="_blank" class="explore-btn">
+                    Explore
+                  </a>
+                  <a href="https://imaginetext-frontend.onrender.com" target="_blank" class="explore-btn">
+                    Live
+                  </a>
+                </div>
+              </li> 
+            </ul>
+          <ul class="service-list">
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img
+                  src="./assets/images/coding.png"
+                  alt="coding icon"
+                  width="40"
+                />
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Blogging Website</h4>
+                <p class="service-item-text">
+                  In this project, I have worked on Full Stack Web Development using Node.js and Express as Backend server and React as Frontend to perform CRUD Operations on Blog using MongoDB.
+                </p>
+                <a href="https://github.com/Nithesh04/Blogging-Website" target="_blank" class="explore-btn">
+                  Explore
+                </a>
+              </div>
+            </li> 
+          </ul>
+          <ul class="service-list">
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img
+                  src="./assets/images/coding.png"
+                  alt="coding icon"
+                  width="40"
+                />
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">To Do List</h4>
+                <p class="service-item-text">
+                  Developed a responsive To-Do List using React
+                </p>
+                <a href="https://github.com/Nithesh04/To-Do-List" target="_blank" class="explore-btn">
+                  Explore
+                </a>
+                <a href="https://to-do-app-mng.netlify.app/" target="_blank" class="explore-btn">
+                  Live
+                </a>
+              </div>
+            </li> 
+          </ul>
+          <ul class="service-list">
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img
+                  src="./assets/images/coding.png"
+                  alt="coding icon"
+                  width="40"
+                />
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Encryption and Decryption</h4>
+                <p class="service-item-text">
+                  The more popular and widely adopted symmetric encryption algorithm likely to be encountered nowadays is the AES. It is found at least six time faster than triple DES.
+                </p>
+                <a href="https://github.com/Nithesh04/Encryption" target="_blank" class="explore-btn">
+                  Explore
+                </a>
+              </div>
+            </li> 
+          </ul>
+          <ul class="service-list">
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img
+                  src="./assets/images/coding.png"
+                  alt="coding icon"
+                  width="40"
+                />
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Crop Yield Prediction</h4>
+                <p class="service-item-text">
+                  Crop yield prediction model using Python and popular machine learning libraries such as TensorFlow and scikit-learn.
+                </p>
+                <a href="https://github.com/Nithesh04/Crop_Yield_Prediction" target="_blank" class="explore-btn">
+                  Explore
+                </a>
+              </div>
+            </li> 
+          </ul>
+          
+        </div>
+        </section>
+      </article>
+      </div>
+    </main>
+
+    <!--
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
